@@ -1,3 +1,5 @@
 <% @articles.each do |article| %>
   <div><%= link_to article.title, article %></div>
 <% end %>
+
+<button class="btn btn-info" style="margin: 1em"><a href="/articles/new">NEW</a></button>
